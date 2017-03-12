@@ -5,7 +5,7 @@ when defined(windows):
     libname* = "freetype6.dll"
 elif defined(macosx): 
   const 
-    libname* = "libfreetype6.dylib"
+    libname* = "libfreetype.6.dylib"
 else: 
   const 
     libname* = "libfreetype.so"
