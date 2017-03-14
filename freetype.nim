@@ -8,7 +8,7 @@ elif defined(macosx):
     libname* = "libfreetype.6.dylib"
 else: 
   const 
-    libname* = "libfreetype6.so"
+    libname* = "libfreetype.so.6"
     
 type 
   Bytes* = ptr cuchar
